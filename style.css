@@ -1,0 +1,59 @@
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    padding: 5px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.logo {
+    font-family: 'Lobster', 'cursive';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.bloc-nav {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /* Centre les menus horizontalement */
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Inter';
+
+}
+
+.reseaux {
+    display: flex;
+    gap: 20px;
+}
+.reseaux a {
+    text-decoration: none;
+    color: #000;
+}
+.fi-brands-twitter{
+    font-size: 25px;
+}
+.fa-facebook-f{
+    font-size: 22px;
+}
+.fi-brands-instagram{
+    font-size: 24px;
+}
