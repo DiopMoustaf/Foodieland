@@ -1,12 +1,24 @@
+body {
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
 .nav-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 97%;
+    width: 100%;
+    max-width: 100%; 
     padding: 5px 40px;
     background-color: #fff;
     border-bottom: 1px solid rgb(165, 165, 165);
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
 
 .logo {
     font-family: 'Lobster', 'cursive';
@@ -57,3 +69,62 @@
 .fi-brands-instagram{
     font-size: 24px;
 }
+
+.nav-section .menu-resp{
+    color: black;
+    font-size: 1.1em;
+    background-color:#E7F9FD;
+    padding: 3px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    border: none;
+}
+
+@media (max-width: 767px) {
+
+    .nav-section{
+        border-bottom: none;
+        max-height: 10vh;
+    }
+
+    .nav-section .menu-resp{
+        display: block;
+    }
+
+    .bloc-nav{
+        display: none;
+    }
+
+    .bloc-nav {
+        position: absolute;
+        margin-top: 6em;
+        z-index: 1;
+        right: 15%;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background-color: #E7F9FD;
+        border-radius: 10px;
+        float: right;
+        margin-top: 4.80em;
+        margin-left: 20px;
+    }
+    .menu li{
+        padding: 3px;
+    }
+    .menu li a{
+        color: black;
+    }
+    
+    .reseaux{
+        display: none;
+    }
+    .bloc-nav.show {
+        display: flex;
+    }
+}
+
+

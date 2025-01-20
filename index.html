@@ -33,7 +33,18 @@
             <a href="#"><i class="fi fi-brands-twitter"></i></a>
             <a href="#"><i class="fi fi-brands-instagram"></i></a>
         </div>
+
+        <button class="menu-resp" aria-label="Ouvrir le menu">
+            <i class="fi fi-rr-menu-burger"></i>
+        </button>
     </nav>
+
+
+    <script>
+        document.querySelector('.menu-resp').addEventListener('click', function () {
+            document.querySelector('.bloc-nav').classList.toggle('show');
+        });
+    </script>
 </body>
 
 </html>
