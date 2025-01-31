@@ -169,7 +169,7 @@ body {
 
 }
 
-.hot-bloc svg {
+.hot-bloc img {
     width: 24px;
     height: 24px;
     justify-content: center;
@@ -226,8 +226,8 @@ body {
     border-radius: 40px;
 }
 
-.deux-boutton .time svg,
-.chicken svg {
+.deux-boutton .time img,
+.chicken img {
     width: 24px;
     height: 24px;
     justify-content: center;
@@ -272,7 +272,7 @@ body {
     margin-top: 50px;
 }
 
-.john svg {
+.john img {
     width: 50px;
     height: 50px;
 }
@@ -328,7 +328,7 @@ body {
 
 }
 
-.john-view .view svg {
+.john-view .view img {
     padding-left: 10px;
 }
 
@@ -340,7 +340,9 @@ body {
 
 .accueil .image-accueil img {
     height: 580px;
-    padding-top: 30px;
+    margin-top: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .contenu {
@@ -358,7 +360,7 @@ body {
     flex-wrap: wrap;
 }
 
-.badge svg {
+.badge img {
     width: 100%;
 }
 
@@ -366,7 +368,7 @@ body {
 @media(max-width: 767px) {
     .contenu {
         max-width: 370px;
-        background-image: url(Images/Mask\ Group.png);
+        background-image: url(Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.svg);
         border-radius: 20px;
         margin-left: 15px;
         margin-right: 18px;
@@ -481,7 +483,7 @@ body {
     margin-top: 20px;
 }
 
-.categorie .line-nourriture svg {
+.categorie .line-nourriture img {
     height: 150px;
 }
 
@@ -561,10 +563,14 @@ body {
 
 
 .bloc1-menu-sec3 img {
-    padding-left: 9px;
+    margin-left: 9px;
     width: 22em;
 }
 
+
+#bordure-image-and-heart-line-one{
+    border-radius: 20px;
+}
 .brodure-image {
     border-radius: 20px;
 }
@@ -716,7 +722,7 @@ body {
     border-radius: 10px;
 }
 
-.image-sec4 svg {
+.image-sec4 img {
     width: 600px;
     height: 500px;
     margin-left: 40px;
@@ -890,7 +896,7 @@ body {
     margin-left: 2em;
 }
 
-.centre button svg {
+.centre button img {
     margin-bottom: 5px;
 }
 
@@ -907,7 +913,7 @@ body {
     margin-top: 10px;
 }
 
-.nbr-like svg {
+.nbr-like img {
     margin-top: 4px;
 }
 
@@ -1075,6 +1081,10 @@ body {
     display: inline-block;
 }
 
+.image-and-heart img{
+    border-radius: 20px;
+}
+
 .heart {
     position: absolute;
     top: 15%;
@@ -1108,7 +1118,7 @@ body {
 }
 
 
-.image-sec6 svg {
+.image-sec6 img {
     width: 290px;
     height: 200px;
 
@@ -1206,7 +1216,7 @@ body {
     display: flex;
 }
 
-.image1-sec7 svg {
+.image1-sec7 img {
     width: 350.54px;
     height: 400.08px;
     opacity: 0px;
@@ -3140,7 +3150,6 @@ input[type="checkbox"] {
 
 }
 
-
 .full-width {
     width: 100%;
     margin-top: 15px;
@@ -3149,4 +3158,9 @@ input[type="checkbox"] {
 .full-width textarea {
     min-height: 235px;
     resize: none;
+}
+
+.animate__animated {
+    animation-duration: 10s;
+    animation-delay: 1s; 
 }
