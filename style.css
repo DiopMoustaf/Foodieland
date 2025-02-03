@@ -500,7 +500,7 @@ body {
         align-items: center;
         width: 100%;
         gap: 10px;
-        margin-left: -0.8em;
+        /* margin-left: -0.8em; */
     }
     
     
@@ -566,9 +566,6 @@ body {
     .john-view .view img{
         padding-right: 10px;
     }
-    
-    /* fin responsive 480px */
-
 
     .image-accueil{
         display: none;
@@ -578,6 +575,9 @@ body {
     .badge {
         display: none;
     }
+    
+    /* fin responsive 480px */
+
 
     .sec2 {
         display: none;
