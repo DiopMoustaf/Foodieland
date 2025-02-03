@@ -56,7 +56,7 @@ body {
     /* background-color: #E7F9FD;
     border-radius: 10px; */
     transform: scale(1.1) rotate(5deg);
-    background: linear-gradient(80deg,#ade1ec, #e9f6f9);
+    background: linear-gradient(80deg, #ade1ec, #e9f6f9);
     color: #444444;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -373,48 +373,222 @@ body {
 
 /* -----responsiviter sec1----- */
 @media(max-width: 767px) {
+
     .contenu {
         max-width: 370px;
-        background-image: url(Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.svg);
         border-radius: 20px;
-        margin-left: 15px;
-        margin-right: 18px;
+        margin: 0 15px;
+        /* background-image: url(Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.svg); */
+        background: linear-gradient(rgba(29, 84, 112, 0.4), rgba(33, 34, 35, 0.4)),
+            url(Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.svg);
+        background-size: cover;
+        background-position: center;
     }
+
+    /* .contenu::before {
+        content: "";
+        position: absolute;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+    } */
 
     .accueil {
         width: 100%;
     }
 
     .mot-accueil {
-        display: flex !important;
         flex-direction: column;
-        background-color: transparent;
-        width: 100% !important;
-        /* height: 570px; */
-        padding-left: 10px;
-        padding-top: 10px;
+        max-width: 90% !important;
+        justify-content: center;
+        margin: auto;
+        background: none;
     }
 
-    .mot-accueil .hot-bloc {
-        top: 0 !important;
-        padding-left: 20px;
+    .hot-bloc {
+        background-color: rgba(255, 255, 255, 0.879);
+        width: 130px;
+        height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5em 0 0 3.5em;
+        /* margin: auto; */
     }
+
+    .hot-bloc img {
+        width: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hot-bloc p {
+        font-size: 15px;
+        padding-left: 5px;
+    }
+
+    .titre h1 {
+        font-family: Inter;
+        font-size: 40px;
+        /* font-weight: 400; */
+        line-height: 40px;
+        letter-spacing: -0.04em;
+        /* text-align: center; */
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+    }
+
+    .titre p {
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        color: white;
+        margin-top: -15px;
+        flex-wrap: wrap;
+    }
+
+
+    .deux-boutton {
+        display: flex;
+        gap: 10px;
+        padding-top: 20px;
+    }
+
+    .deux-boutton .time,
+    .deux-boutton .chicken {
+        display: flex;
+        background: rgba(255, 255, 255, 0.553);
+        border-radius: 40px;
+    }
+
+    .deux-boutton .time img,
+    .chicken img {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7px;
+        padding-top: 9px;
+        /* background-color: antiquewhite; */
+    }
+
+    .deux-boutton .time p,
+    .chicken p {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 600;
+        padding-right: 13px;
+        line-height: 16.94px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .deux-boutton .chicken p {
+        padding-right: 25px;
+    }
+
+
+
+    .john-view {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        /* border-radius: 20px; */
+        /* background-color: antiquewhite; */
+
+    }
+    
+    
+    .john {
+        display: flex;
+        min-width: 130px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        /* background-color: antiquewhite; */
+    }
+    
+    .john img {
+        width: 30px;
+        height: 30px;
+        margin-left: 0;
+    }
+
+    .john .nom{}
+    
+    .nom h3 {
+        font-family: Inter;
+        font-size: 12px;
+        text-align: left;
+        margin-bottom: 5px;
+        color: white;
+    
+    }
+    
+    .nom p {
+        font-family: Inter;
+        font-size: 12px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        margin-top: 7px;
+        color: white;
+    
+    }
+    
+    .john-view .view {
+        width: 50px;
+        position: relative;
+        background-color: #000;
+        height: 30px;
+        align-items: center !important;
+        margin-top: 55px;
+        /* margin-left: 60px; */
+        border-radius: 5px;
+    
+    }
+    
+    .john-view .view .view-a {
+        display: flex;
+        color: white;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 12px;
+        /* font-weight: 600; */
+        /* line-height: 16.94px; */
+        /* text-align: left; */  
+        padding-left: -10px !important;
+        justify-content: none;
+        align-items: start;
+        text-align: start;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    .john-view .view img {
+        /* padding-left: 10px; */
+    }
+    
+    /* fin partie gauche */
+
+
+    .image-accueil{
+        display: none;
+    }
+
 
     .badge {
-        display: none;
-        position: absolute;
-        top: 10%;
-        right: 43%;
-        width: 130px;
-        height: 70px;
-        z-index: 10;
-    }
-
-    .badge img {
-        width: 100%;
-    }
-
-    .accueil .image-accueil {
         display: none;
     }
 
@@ -427,6 +601,22 @@ body {
     }
 
     .sec4 {
+        display: none;
+    }
+
+    .sec5 {
+        display: none;
+    }
+
+    .sec6 {
+        display: none;
+    }
+
+    .sec7 {
+        display: none;
+    }
+
+    footer {
         display: none;
     }
 }
@@ -575,9 +765,10 @@ body {
 }
 
 
-#bordure-image-and-heart-line-one{
+#bordure-image-and-heart-line-one {
     border-radius: 20px;
 }
+
 .brodure-image {
     border-radius: 20px;
 }
@@ -1088,7 +1279,7 @@ body {
     display: inline-block;
 }
 
-.image-and-heart img{
+.image-and-heart img {
     border-radius: 20px;
 }
 
@@ -3167,7 +3358,10 @@ input[type="checkbox"] {
     resize: none;
 }
 
-.animate__animated {
-    animation-duration: 10s;
-    animation-delay: 1s; 
-}
+
+
+
+/* .animate__animated img:hover{
+    animation: heartBeat;  
+    animation-duration: 1s; 
+} */
