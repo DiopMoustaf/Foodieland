@@ -866,7 +866,7 @@ body {
     max-width: 290;
 }
 
-.image-insta svg {
+.image-insta .nbr-de-page {
     position: absolute;
     z-index: 20;
     margin-left: 15.5em;
