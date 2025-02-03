@@ -49,11 +49,18 @@ body {
     color: #000;
     font-family: 'Inter';
     padding: 5px 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .menu li a:hover {
-    background-color: #E7F9FD;
-    border-radius: 10px;
+    /* background-color: #E7F9FD;
+    border-radius: 10px; */
+    transform: scale(1.1) rotate(5deg);
+    background: linear-gradient(80deg,#ade1ec, #e9f6f9);
+    color: #444444;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .reseaux {
