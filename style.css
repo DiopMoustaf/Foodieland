@@ -372,7 +372,7 @@ body {
 }
 
 /* -----responsiviter sec1----- */
-@media(max-width: 767px) {
+@media only screen and (max-width: 480px){
 
     .contenu {
         max-width: 370px;
