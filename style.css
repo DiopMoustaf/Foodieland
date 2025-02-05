@@ -944,6 +944,9 @@ body {
         margin-top: -2em;
     }
 
+    .menu-sec3{
+        margin-left: 8px;
+    }
 
     .menu-sec3 .line-one {
         display: flex;
@@ -1183,7 +1186,7 @@ body {
     .image-sec4 img {
         width: 440px;
         height: 340px;
-        margin-left: -5.1em;
+        margin-left: -4.5em;
         margin-bottom: 10em;
     }
 }
