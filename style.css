@@ -3804,27 +3804,21 @@ input[type="checkbox"] {
         margin-top: -1em;
         margin-bottom: -10em;
     }
-    
-    .text-sec6 {
-        width: 370px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .text-sec6 h2 {
+
+    .title-sec5-recipes{
         width: 350px;
         height: 116px;
         font-family: Inter;
-        font-size: 35px;
+        font-size: 30px !important;
         font-weight: 600;
         line-height: 58.09px;
         letter-spacing: -0.04em;
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        margin-left: 20px;
+        margin-left: -40px !important;
+        margin-top: 4em;
+        margin-bottom: -30px;
     }
     
     .text-sec6 p {
