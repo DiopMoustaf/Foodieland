@@ -2830,8 +2830,13 @@ body {
 
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 /* ------responsiviter------ */
 @media (max-width: 767px) {
+    
 
     .sec1-recipes {
         max-width: 370px;
