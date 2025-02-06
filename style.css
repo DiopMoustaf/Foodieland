@@ -5,6 +5,9 @@ body {
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
 
 .nav-section {
     display: flex;
@@ -2830,9 +2833,6 @@ body {
 
 }
 
-html, body {
-    overflow-x: hidden;
-}
 
 /* ------responsiviter------ */
 @media (max-width: 767px) {
@@ -4083,7 +4083,92 @@ input[type="checkbox"] {
 }
 
 /* ------responsiviter------ */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .sec1-blog {
+        max-width: 370px;
+        height: 289px;
+        margin-top: 0.5em;
+        margin-left: 0.6em;
+    }
+    
+    .sec1-blog h1 {
+        max-width: 370px;
+        height: 77px;
+        margin: auto;
+        font-family: Inter;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 77.45px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        text-underline-position: from-font;
+
+    }
+    
+    .sec1-blog p {
+        max-width: 370px;
+        height: 28px;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #5d5d5d;
+        align-items: center;
+    }
+    
+    
+    
+    .inscription-blog-sec1 {
+        max-width: 370px;
+        height: 80px;
+    }
+    
+    .inscription-blog-sec1 .inscription {
+        width: 370px;
+        height: 80px;
+        border-radius: 24px;
+        border: 1px solid rgb(209, 209, 209);
+        border-radius: 24px;
+        margin-left: 0;
+        display: flex;
+    }
+    
+    
+    .inscription-blog-sec1 .inscription input {
+        width: 100%;
+        font-family: Inter;
+        padding: 20px 20px 30px 20px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin-left: 2px;
+        border-radius: 24px;
+        outline: none;
+        font-size: 17px;
+    }
+    
+    .inscription-blog-sec1 .inscription button {
+        background-color: black;
+        border-radius: 16px;
+        font-family: Inter;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        padding: 20px 20px;
+        margin-left: -2.3em;
+        margin-top: -10px;
+        border: none;
+        z-index: 1;
+    }
+    
+    .inscription-blog-sec1 .inscription button a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
 
 /* fin sec1-blog */
 
@@ -4295,8 +4380,7 @@ input[type="checkbox"] {
     width: 400px;
     height: 434px;
     text-align: center;
-    /* padding: 20px; */
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
 }
 
 
@@ -4306,7 +4390,216 @@ input[type="checkbox"] {
 }
 
 /* ------responsiviter------ */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .sec2-blog {
+        max-width: 370px;
+        height: 1360px;
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 10em; */
+        margin-left: 10px;
+        margin-top: 3em;
+    }
+    
+    .bloc-blog {
+        max-width: 370px;
+        height: 1360px;
+        /* background-color: wheat; */
+    }
+    
+    .slite-bloc-blog {
+        display: flex;
+        /* gap: 30px; */
+        margin-top: 5px;
+    }
+    
+    
+    .slite-bloc-blog img {
+        width: 190px;
+        height: 120px;
+        border-radius: 20px;
+        margin-left: 0;
+    }
+
+    .text-bloc-blog{
+        margin-left: -20px;
+
+    }
+    
+    .text-bloc-blog h2 {
+        width: 183px;
+        height: 29px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-top: 5px;
+
+    }
+    
+    .text-bloc-blog p {
+        width: 180px;
+        height: 56px;
+        font-family: Inter;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 11px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-top: -3px;
+        color: rgb(110, 110, 110);
+    }
+    
+    .line-profil {
+        display: flex;
+    }
+
+    .profil-blog {
+        width: 120px;
+        height: 40px;
+        display: flex;
+        margin-top: -25px;
+    }
+    
+    .profil-blog img {
+        width: 30px;
+        height: 30px;
+        margin-left: -1px;
+    }
+    
+    .profil-blog h3 {
+        width: 103px;
+        height: 25px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 19.36px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-left: 2px;
+        padding-top: 5px;
+    }
+    
+    
+    .line-profil .vector {
+        width: 0px;
+        height: 20px;
+        border: 1px solid #0000001A;
+        margin-top: -15px;
+        margin-left: -9px;
+    }
+    
+    .line-profil p {
+        width: 121px;
+        height: 40px;
+        font-family: Inter;
+        font-size: 8.5px;
+        font-weight: 500;
+        line-height: 16.94px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #686868;
+        margin-left: 2px;
+        margin-top: -12.5px;
+    }
+    
+    .sidebar-sec2-blog {
+        max-width: 370px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .sidebar-sec2-blog h2 {
+        width: 370px;
+        height: 39px;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 35px;
+        line-height: 38.73px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+    }
+    
+    .recipe-sec2-blog {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 400px;
+        height: 120px;
+    }
+
+    .recipe-sec2-blog img {
+        width: 190px;
+        height: 120px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-right: 1.8em;
+    }
+    
+    .text-sec2-blog {
+        width: 196px;
+        height: 89px;
+        margin-right: 0;
+    }
+    
+    
+    .text-sec2-blog h3 {
+        width: 196px;
+        height: 56px;
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        padding-left: 1em;
+    }
+    
+    .text-sec2-blog p {
+        width: 130px;
+        height: 17px;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 16.94px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #5d5d5d;
+        padding-left: 1em;
+        /* margin-left: 4.5em; */
+    }
+    
+    
+    .ad-sec2-blog {
+        width: 370px;
+        height: 400px;
+        text-align: center;
+        margin-top: -2em;
+    }
+    
+    
+    .ad-sec2-blog img {
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+}
 
 /* fin sec2-blog */
 
@@ -4365,7 +4658,60 @@ input[type="checkbox"] {
 }
 
 /* ------responsiviter------ */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .sec3-blog {
+        max-width: 370px;
+        height: 64px;
+        /* margin: auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 35em;
+        margin-left: 10px;
+    }
+    
+    .sec3-blog button {
+        background: none;
+        border: 1px solid #e3e3e3;
+        width: 64px;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+/* 
+    .hov-noir:hover{
+        background-color: black;
+    }
+
+    .hov-noir:hover a{
+        color: white;
+    }
+
+    .hov-noir:hover a svg{
+        fill: white;
+    } */
+    
+    .sec3-blog button a {
+        width: 9px;
+        height: 22px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.78px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }    
+    
+    #noir {
+        background-color: black;
+    }
+    
+    #noir a {
+        color: white;
+    }
+}
 
 /* fin sec3-blog */
 
@@ -4380,9 +4726,98 @@ input[type="checkbox"] {
 }
 
 /* ------responsiviter------ */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
 
-/* fin sec4-blog */
+    .sec4-blog {
+        max-width: 370px;
+        border-radius: 20px;
+        background: #E7F9FD;
+        margin: 0 15px;
+        background: linear-gradient(rgba(29, 84, 112, 0.5), rgba(33, 34, 35, 0.5)),
+            url(Images/Photo-plate.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+
+    }
+    
+    .bloc-sec7 {
+        display: block;
+    }
+    
+    .image1-sec7 img, .img-resp {
+        display: none;
+    }
+    
+    .bloc-text {
+        width: 370px;
+        height: 450px;
+    }
+    
+    .bloc-text h2 {
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 58.09px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 1.3em;
+    }
+    
+    .bloc-text p {
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-align: center;
+        color: white;
+        padding: 0 20px 0 10px;
+        margin-top: -2em;
+    }
+    
+    .inscription {
+        max-width: 350px;
+        max-height: 70px;
+        background-color: white;
+        border-radius: 24px;
+        margin-top: 2em;
+        margin-left: 4px;
+    }
+    
+    
+    .inscription input {
+        font-family: Inter;
+        padding: 25px 30px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin-left: 2px;
+        border-radius: 24px;
+        outline: none;
+    }
+    
+    .inscription button {
+        background-color: black;
+        color: white;
+        border-radius: 16px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        padding: 17px 10px;
+        margin-left: 45px;
+        border: none;
+    }
+}
+
+
 
 
 /*---------------------------------------Fin Blog-------------------------------------- */
